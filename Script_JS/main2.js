@@ -122,11 +122,16 @@ $(function(){
 		if($("#form").val()){
 			if(nombre == $("#form").val()){
 				alert('Bravo, vous avez trouvez le code !');
+				e.preventDefault();
+				document. location. reload()
 			}
 			else{
 				alert('Code incorrect !\n Réessayez');
-				if(confirm("Obtenir le résultat ?"))
+				if(confirm("Obtenir le résultat ?")){
 					alert(nombre);
+					document. location. reload()
+				}
+					
 				else
 					e.preventDefault();
 			}
