@@ -1,2 +1,3 @@
-# Jeu_code
-Jeu de réflexion pour découvrir le nombre caché.
+# GuessCode
+
+Game to guess the hidden code
